@@ -13,6 +13,8 @@ public class Main {
         try {
             num1 = Integer.parseInt(parts[0]);
             num2 = Integer.parseInt(parts[2]);
+            
+
             switch (parts[1]) {
                 case "+":
                     result = num1 + num2;
